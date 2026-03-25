@@ -1,16 +1,30 @@
-# React + Vite
+# Project Tracker UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a frontend project management tool built using React (JavaScript), HTML, and CSS. It supports multiple views (Kanban, List, Timeline) with filtering, drag-and-drop, and performance optimization.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Kanban board with drag-and-drop (custom, no library)
+- List view with virtual scrolling (handles 500+ tasks smoothly)
+- Timeline view (basic Gantt style)
+- Filters (status, priority) with instant update
+- URL sync for filters (shareable state)
+- Responsive design (desktop + tablet)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (JavaScript)
+- HTML + CSS
+- No external UI libraries used
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+npm install
+npm run dev
